@@ -5,13 +5,14 @@
 #include "../../Header/Diet.h"
 using namespace std;
 
-// default constructor
+/// @brief Default constructor
 Diet::Diet(){
   this->m_diet = "carnivorous";
   
 };
 
-// Diet constructor
+/// @brief overload of Diet() constructor
+/// @param p_diet has to be a string
 Diet::Diet(string p_diet) {
   this->m_diet = p_diet;
 };
